@@ -12,7 +12,7 @@ Es kann eine Ignore Liste eingegeben werden und oder mehrere Alias können für 
 Auch wird ein prozentualer Vergleich der Trefferquote erstellt.
 
 English:
-The function searches for specific search strings in an Outlook calendar and saves the result in a list.
+The function searches for specific strings in an Outlook calendar and saves the result in a list.
 An ignore list can be entered and or multiple aliases can be specified for a search string category.
 A percentage comparison of the hit rate is also created.
 */
