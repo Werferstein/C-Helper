@@ -15,6 +15,12 @@ English:
 The function searches for specific strings in an Outlook calendar and saves the result in a list.
 An ignore list can be entered and or multiple aliases can be specified for a search string category.
 A percentage comparison of the hit rate is also created.
+
+List<SearchItem> FindItems = new List<SearchItem>();
+FindItems.Add(new SearchItem { FindName = "Müller" });
+FindItems.Add(new SearchItem { FindName = "Karl" , StringList = new List<string> { "Karl","Karlo"}});
+FindItems.Add(new SearchItem { FindName = "Willi", StringList = new List<string> { "Willi", "Willy" } });
+string t = Find_In_Outlook.FindAppointmentsInTheCalendar("Germany IT-House", dc.Start, dc.End, FindItems, "Hotline", null, true);
 */
 
 
